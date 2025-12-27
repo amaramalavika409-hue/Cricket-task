@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Team India – Player Stats Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #021d2c;
+            font-family: monospace;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 5px;
+            font-size: 28px;
+            border-bottom: 2px solid #00aaff;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 40px;
+        }
+
+        .player-card {
+            width: 260px;
+            background: rgba(0, 40, 70, 0.6);
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 15px #00c8ff;
+            border: 2px solid #0077aa;
+        }
+
+        .player-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #00eaff;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .stat {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .bar {
+            width: 100%;
+            height: 10px;
+            background: #0a2e43;
+            border-radius: 10px;
+            
+        }
+
+        .fill {
+            height: 100%;
+            background: #80ffb0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 5px;
+            border-top: 2px solid #00aaff;
+            margin-top: 30px;
+            color: #a0dfff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+       <h1>  Team India — Player Stats Dashboard  </h1>
+    </header>
+
+    <div class="container">
+
+        <!-- Player 1 -->
+        <div class="player-card">
+            <img src="https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg" class="player-img">
+            <h2>Ms Dhoni</h2>
+            <p><h3>Role:Batsman</h3></p>
+
+            <div class="stat">
+                <label><h3>Runs</h3></label>
+                <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="stat">
+                <label><h3>Strike Rate</h3></label>
+                <div class="bar"><div class="fill" style="width: 85%;"></div></div>
+            </div>
+
+            <div class="stat">
+                <label><h3>Wickets</h3></label>
+                <div class="bar"><div class="fill" style="width: 5%;"></div></div>
+            </div>
+        </div>
+
+        <!-- Player 2 -->
+        <div class="player-card">
+            <img src="https://i.cdn.newsbytesapp.com/images/l29220231006145147.jpeg" class="player-img">
+            <h2>Zaheer Kaheer</h2>
+            <p><h3>Role:Bowler</h3></p>
+
+            <div class="stat">
+                <label><h3>Runs</h3></label>
+                <div class="bar"><div class="fill" style="width: 20%;"></div></div>
+            </div>
+
+            <div class="stat">
+                <label><h3>Strike Rate</h3></label>
+                <div class="bar"><div class="fill" style="width:30%;"></div></div>
+            </div>
+
+            <div class="stat">
+                <label><h3>Wickets</h3></label>
+                <div class="bar"><div class="fill" style="width: 85%;"></div></div>
+            </div>
+        </div>
+
+        <!-- Player 3 -->
+        <div class="player-card">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.MeJSeCpmhbzj4QSlqx8_TQHaF4?pid=Api&P=0&h=180" class="player-img">
+            <h2>Rahul Dravid</h2>
+            <p><h3>Role:Batsman</h3></p>
+
+            <div class="stat">
+                <label><h3>Runs</h3></label>
+                <div class="bar"><div class="fill" style="width: 85%;"></div></div>
+            </div>
+
+            <div class="stat">
+                <label><h3>Strike Rate</h3></label>
+                <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+            </div>
+
+            <div class="stat">
+                <label><h3>Wickets</h3></label>
+                <div class="bar"><div class="fill" style="width: 20%;"></div></div>
+            </div>
+        </div>
+
+
+        <!-- Player 4 -->
+        <div class="player-card">
+            <img src="https://imgeng.jagran.com/images/2023/nov/RJADJEA1700127903469.jpg" class="player-img">
+            <h2>Ravindra jadeja</h2>
+            <p><h3>Role:All-rounder</h3></p>
+
+            <div class="stat">
+                <label><h3>Runs</h3></label>
+                <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+            </div>
+
+            <div class="stat">
+                <label><h3>Strike Rate</h3></label>
+                <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+            </div>
+
+            <div class="stat"> 
+                <label><h3>Wickets</h3></label>
+                <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        @ Cricket Stats - 2025 
+    </footer>
+
+</body>
+
+</html>
